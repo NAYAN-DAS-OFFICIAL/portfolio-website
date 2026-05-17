@@ -25,4 +25,8 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+
+  verification: {
+    google: "MkFI5U1xKUe3n9iWk67FqcGdVaKEoIX94a6FJV39bwI",
+  },
 };
