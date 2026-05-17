@@ -1,0 +1,97 @@
+const projects = [
+  {
+    title: "Portfolio Website",
+    description:
+      "Modern responsive portfolio website using Next.js and Tailwind CSS.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "Todo App",
+    description:
+      "Full stack todo application with CRUD functionality.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "Weather App",
+    description:
+      "Weather application using API integration and responsive UI.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "GeoStyleHub",
+    description:
+      "Online slot booking platform for salons and service providers with scalable architecture.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "GeoFurnitureMart",
+    description:
+      "Modern e-commerce furniture platform with responsive UI and scalable frontend architecture.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "Anime Converter",
+    description:
+      "AI-powered anime image converter with modern UI and image transformation features.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+
+  {
+    title: "StoresRating",
+    description:
+      "Smart business growth platform that helps stores collect reviews and show discount popups to nearby users.",
+    github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  },
+];
+
+export default function Projects() {
+  return (
+    <section
+        id="projects"
+        className="py-24 px-6 bg-gray-100">
+
+      <div className="max-w-6xl mx-auto">
+
+        <h2 className="text-4xl font-bold text-center mb-14">
+          Projects
+        </h2>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {projects.map((project) => (
+            <div
+              key={project.title}
+              className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition duration-300"
+            >
+
+              <h3 className="text-2xl font-bold mb-4">
+                {project.title}
+              </h3>
+
+              <p className="text-gray-600 leading-7">
+                {project.description}
+              </p>
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-8 px-6 py-3 bg-black text-white rounded-xl hover:opacity-80 transition"
+                >
+                View Project
+              </a>
+            </div>
+          ))}
+
+        </div>
+
+      </div>
+
+    </section>
+  );
+}
