@@ -1,4 +1,6 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Nayan Das | Full Stack Developer",
   description:
     "Nayan Das is a Full Stack Developer skilled in Next.js, React, TypeScript, Node.js and scalable web applications.",
