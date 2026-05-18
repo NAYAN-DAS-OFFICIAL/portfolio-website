@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Nayan Das | Full Stack Developer",
@@ -32,3 +33,15 @@ export const metadata: Metadata = {
     google: "MkFI5U1xKUe3n9iWk67FqcGdVaKEoIX94a6FJV39bwI",
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}

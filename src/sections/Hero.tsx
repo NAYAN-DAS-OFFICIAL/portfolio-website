@@ -36,7 +36,7 @@ export default function Hero() {
       >
 
         <h1 className="text-6xl font-bold mb-6 text-black dark:text-white">
-          Hi, I&apos;m Boss 👋
+          Hi, I&apos;m Nayan Das 👋
         </h1>
 
         <p className="text-xl text-gray-700 dark:text-gray-300 max-w-2xl">
