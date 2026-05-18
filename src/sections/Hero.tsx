@@ -52,7 +52,7 @@ export default function Hero() {
         </a>
 
         <a
-          href="/Nayan-Das-Resume.pdf"
+          href="/cv/Nayan-Das-Resume.pdf"
           download
           className="px-6 py-3 bg-black text-white rounded-lg"
         >
