@@ -51,6 +51,14 @@ export default function Hero() {
             View Projects
         </a>
 
+        <a
+          href="/Nayan-Das-Resume.pdf"
+          download
+          className="px-6 py-3 bg-black text-white rounded-lg"
+        >
+          Download CV
+        </a>
+
       </motion.div>
 
     </section>
