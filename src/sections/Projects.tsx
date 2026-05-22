@@ -1,26 +1,27 @@
 const projects = [
+  
   {
-    title: "Portfolio Website",
-    description:
-      "Modern responsive portfolio website using Next.js and Tailwind CSS.",
-    github: "https://github.com/NAYAN-DAS-OFFICIAL",
-    live: "https://portfolio-website-one-fawn-18.vercel.app",
+  title: "Portfolio Website",
+  description:
+    "Modern responsive personal portfolio website showcasing projects, skills, and contact information built using Next.js, TypeScript, and Tailwind CSS.",
+  github: "https://github.com/NAYAN-DAS-OFFICIAL",
+  live: "https://portfolio-website-one-fawn-18.vercel.app",
   },
 
   {
-    title: "Todo App",
-    description:
-      "Full stack todo application with CRUD functionality.",
-    github: "https://github.com/NAYAN-DAS-OFFICIAL",
-    live: "#",
+  title: "Todo Website",
+  description:
+    "Modern full stack todo application with authentication, CRUD operations, reminders, notifications, and responsive UI built using Next.js, TypeScript, Firebase, and Tailwind CSS.",
+  github: "https://github.com/NAYAN-DAS-OFFICIAL/todo-website",
+  live: "https://todo-website-phi-inky.vercel.app",
   },
 
   {
-    title: "Weather App",
-    description:
-      "Weather application using API integration and responsive UI.",
-    github: "https://github.com/NAYAN-DAS-OFFICIAL/weather-app",
-    live: "https://weather-app-phi-one-91.vercel.app",
+  title: "Weather App",
+  description:
+    "Real-time weather application with API integration, live weather updates, location-based search, and responsive user interface built using React and Tailwind CSS.",
+  github: "https://github.com/NAYAN-DAS-OFFICIAL/weather-app",
+  live: "https://weather-app-phi-one-91.vercel.app",
   },
 
   {
